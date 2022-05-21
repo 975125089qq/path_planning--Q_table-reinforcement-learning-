@@ -1,4 +1,4 @@
-# path_planning--Q_table
+# path_planning--Q_table(reinforcement learning)
 This is a simple program to find the shortest path using Q table.  
 - The map, starting point and ending point can be customized.  
 - This program works well in small maps but if the map is big or complex, it may fail.
