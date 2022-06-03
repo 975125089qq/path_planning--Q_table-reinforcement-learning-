@@ -88,7 +88,7 @@ for episode in range(EPISODES):
         """calculate new q"""
         position_new = (robot.x, robot.y)
         max_future_q = np.max(q_table[position_new])
-        q_current = q_table[position_new][action]
+        q_current = q_table[position][action]
 
         if reward == GOAL_REWARD:
             q_new = GOAL_REWARD
